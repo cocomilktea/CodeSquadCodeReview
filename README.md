@@ -8,7 +8,7 @@
 - [개인] 요구사항, 접근방법, 코드에 의거하여 발표할 슬라이드를 만들어 목요일 저녁까지 올린다.
 - [모두] 개인이 올린 슬라이들을 읽어 다음 날 다른 사람 발표에 대비한다.
 
-# 코드 리뷰 준비 과정
+## 코드 리뷰 준비 과정
 > 저장소 브랜치에 자신의 github 아이디에 해당하는 브랜치가 존재해야 한다.
 > 자신의 github 아이디에 해당하는 브랜치가 있는지 확인한다.
 
@@ -33,7 +33,7 @@ git checkout -t origin/본인_아이디
 ex) git checkout -t origin/HaeSeongPark
 ```
 
-5. commit
+5. 작업을 하고 commit
 ```
 git status //확인
 git rm 파일명 //삭제된 파일
@@ -47,7 +47,7 @@ git push --set-upstream origin 본인_아이디
 ex) git push --set-upstream origin HaeSeongPark
 ```
 
-8. pull request
+7. pull request
 	- pull request는 github 서비스에서 진행할 수 있다.
 	- pull request는 original 저장소의 브랜치(자신의 github 아이디)와 앞 단계에서 생성한 브랜치 이름을 기준으로 한다.
 
@@ -55,9 +55,9 @@ ex) git push --set-upstream origin HaeSeongPark
 	ex) code-squad/swift-laddergame godrm 브랜치 기준 => godrm/swift-laddergame ladder-step1
 	```
 	
-9. merge
+8. merge
 
-10. 기본(upstream) 브랜치 전환 및 base 저장소 추가하기(최초 시작하기 단계 한번만 하면 됨)
+9. 기본(upstream) 브랜치 전환 및 base 저장소 추가하기(최초 시작하기 단계 한번만 하면 됨)
 
 	```
 	git checkout 본인_아이디
@@ -73,10 +73,11 @@ ex) git push --set-upstream origin HaeSeongPark
 	git remote -v
 	```
 
-11. 기본 base 저장소와 sync하기 (PR 보낸 내용을 자신의 기본 저장소와 합치기)
+10. 기본 base 저장소와 sync하기 (PR 보낸 내용을 자신의 기본 저장소와 합치기)
 ```
  git checkout 본인_아이디
  git fetch upstream
  git rebase upstream/본인_아이디
  ex) git rebase upstream/godrm
 ```
+11. 10번까지 다 하면 [5작업하고 commit] 부터 다시
