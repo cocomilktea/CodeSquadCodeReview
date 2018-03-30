@@ -1,7 +1,7 @@
 # CodeSquadCodeReview
 
 ## 진행 방법
-[CodeSquadCodeReview 저장소](https://github.com/HaeSeongPark/CodeSquadCodeReview)를 기반으로 코드리뷰를 시작한다
+[CodeSquadCodeReview 저장소](https://github.com/HaeSeongPark/CodeSquadCodeReview)를 기반으로 코드리뷰 를 시작한다
 - 시간 : 금요일 오후 2-3시 /  개인 당 10~15분
 - 주제 : 자기단계 or 원하는 것!
 - 준비할 것
