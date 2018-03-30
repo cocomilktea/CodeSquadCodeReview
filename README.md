@@ -74,10 +74,9 @@ ex) git push --set-upstream origin HaeSeongPark
 	```
 
 11. 기본 base 저장소와 sync하기 (PR 보낸 내용을 자신의 기본 저장소와 합치기)
-
-	```
-  git checkout 본인_아이디
-	git fetch upstream
-	git rebase upstream/본인_아이디
-	ex) git rebase upstream/godrm
-	```
+```
+ git checkout 본인_아이디
+ git fetch upstream
+ git rebase upstream/본인_아이디
+ ex) git rebase upstream/godrm
+```
